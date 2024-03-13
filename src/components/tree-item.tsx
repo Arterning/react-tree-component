@@ -24,7 +24,7 @@ export const TreeItem = ({
 
   return (
     <div
-      className="group min-h-[27px] text-sm py-1 pr-3 w-full hover:bg-primary/5 flex gap-2 items-center text-muted-foreground font-medium"
+      className="group min-h-[27px] text-xl py-1 pr-3 w-full hover:bg-primary/5 flex gap-2 items-center text-muted-foreground font-medium"
       style={{
         paddingLeft: level ? `${level * 12 + 12}px` : "12px",
       }}
